@@ -799,7 +799,7 @@ Repository:
 
 `site/index.html` がプロモーションTOP、`site/episodes/01/` と `site/episodes/02/` が本文ページ。
 
-本文ページは `contents/episodes/episode-XX.md` をブラウザから読み込み、MarkdownをHTMLへ変換して全文表示する。
+本文ページは公開用の `site/contents/episodes/episode-XX.md` をブラウザから読み込み、MarkdownをHTMLへ変換して全文表示する。`contents/episodes/` が執筆・管理用の元ファイルで、公開前に同名ファイルを `site/contents/episodes/` へコピーする。
 そのため、HTMLファイルを直接開くのではなく、リポジトリ直下でローカルサーバーを起動する。
 
 ```text
@@ -811,6 +811,11 @@ python -m http.server 4173
 ## エピソード追加
 
 1. `contents/episodes/episode-03.md` を追加する。
-2. `site/episodes/03/index.html` を既存話から複製する。
-3. ページ内の話数・タイトル・description・`data-source`・前後リンクを更新する。
-4. `site/index.html` のEPISODESと最新話導線へカードを追加する。
+2. `site/contents/episodes/episode-03.md` へ同じMarkdownファイルをコピーする。
+3. `site/episodes/03/index.html` を既存話から複製する。
+4. ページ内の話数・タイトル・description・`data-source`・前後リンクを更新する。
+5. `site/index.html` のEPISODESと最新話導線へカードを追加する。
+
+## 公開
+
+`site/` フォルダの中身だけで公開サイトが完結する。公開先のルートへ `site/` の中身をアップロードする。
