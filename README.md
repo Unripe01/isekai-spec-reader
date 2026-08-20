@@ -792,3 +792,25 @@ Repository:
 目的は、
 
 **長期連載での設定矛盾を防ぐこと。**
+
+---
+
+# 公式サイト
+
+`site/index.html` がプロモーションTOP、`site/episodes/01/` と `site/episodes/02/` が本文ページ。
+
+本文ページは `contents/episodes/episode-XX.md` をブラウザから読み込み、MarkdownをHTMLへ変換して全文表示する。
+そのため、HTMLファイルを直接開くのではなく、リポジトリ直下でローカルサーバーを起動する。
+
+```text
+python -m http.server 4173
+```
+
+起動後、`http://localhost:4173/site/` を開く。
+
+## エピソード追加
+
+1. `contents/episodes/episode-03.md` を追加する。
+2. `site/episodes/03/index.html` を既存話から複製する。
+3. ページ内の話数・タイトル・description・`data-source`・前後リンクを更新する。
+4. `site/index.html` のEPISODESと最新話導線へカードを追加する。
