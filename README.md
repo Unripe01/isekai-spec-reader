@@ -66,8 +66,9 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 | episode-02 | 第二章「消えた鐘」 | [episode-02.md](contents/episodes/episode-02.md) |
 | episode-03 | 第三章「道が一本多い」 | [episode-03.md](contents/episodes/episode-03.md) |
 | episode-04 | 第四章「同じ名前を二度書く」 | [episode-04.md](contents/episodes/episode-04.md) |
+| episode-05 | 第五章「昨日は一つだった」 | [episode-05.md](contents/episodes/episode-05.md) |
 
-現在地はepisode-04終了時点。リーベルで二人のセドを同時に確認し、既出の `fallback` と公的記録の矛盾を、結論を急がず検証している。詳細は [CURRENT_STATE.md](docs/series/CURRENT_STATE.md) を参照する。
+現在地はepisode-05終了時点。リーベルで二人のセドを継続観測する中、本人が残ったまま一部の記録と記憶だけが欠ける現象を確認した。詳細は [CURRENT_STATE.md](docs/series/CURRENT_STATE.md) を参照する。
 
 ## ディレクトリ構成
 
@@ -79,7 +80,8 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 │  │  ├─ episode-01.md
 │  │  ├─ episode-02.md
 │  │  ├─ episode-03.md
-│  │  └─ episode-04.md
+│  │  ├─ episode-04.md
+│  │  └─ episode-05.md
 │  └─ images/
 │     └─ key-visual.png      # 元キービジュアル
 ├─ docs/
