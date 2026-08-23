@@ -68,8 +68,9 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 | episode-04 | 第四章「同じ名前を二度書く」 | [episode-04.md](contents/episodes/episode-04.md) |
 | episode-05 | 第五章「昨日は一つだった」 | [episode-05.md](contents/episodes/episode-05.md) |
 | episode-06 | 第六章「どちらの昨日か」 | [episode-06.md](contents/episodes/episode-06.md) |
+| episode-07 | 第七章「俺の昨日を返せ」 | [episode-07.md](contents/episodes/episode-07.md) |
 
-現在地はepisode-06終了時点。リーベルで二人のセドを継続観測する中、出来事が残ったまま、誰の行為として記憶されるかだけが食い違う現象を確認した。詳細は [CURRENT_STATE.md](docs/series/CURRENT_STATE.md) を参照する。
+現在地はepisode-07終了時点。北街道のセドが十八日の記憶を失い、十五日のセドが同じ内容を新たに申告した。二人の自筆記録は残り、リーベル衛兵隊は異常を王都へ報告するため三部の報告書を用意した。詳細は [CURRENT_STATE.md](docs/series/CURRENT_STATE.md) を参照する。
 
 ## ディレクトリ構成
 
@@ -83,7 +84,8 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 │  │  ├─ episode-03.md
 │  │  ├─ episode-04.md
 │  │  ├─ episode-05.md
-│  │  └─ episode-06.md
+│  │  ├─ episode-06.md
+│  │  └─ episode-07.md
 │  └─ images/
 │     └─ key-visual.png      # 元キービジュアル
 ├─ docs/
