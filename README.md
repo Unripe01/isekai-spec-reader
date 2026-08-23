@@ -65,8 +65,9 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 | episode-01 | プロローグ／第一章「ないものは、直せない」 | [episode-01.md](contents/episodes/episode-01.md) |
 | episode-02 | 第二章「消えた鐘」 | [episode-02.md](contents/episodes/episode-02.md) |
 | episode-03 | 第三章「道が一本多い」 | [episode-03.md](contents/episodes/episode-03.md) |
+| episode-04 | 第四章「同じ名前を二度書く」 | [episode-04.md](contents/episodes/episode-04.md) |
 
-現在地はepisode-03終了時点。ハルカ村を出たユウとリゼはリーベルへ到着し、既出の `fallback` が存在の重複まで引き起こす可能性に直面している。詳細は [CURRENT_STATE.md](docs/series/CURRENT_STATE.md) を参照する。
+現在地はepisode-04終了時点。リーベルで二人のセドを同時に確認し、既出の `fallback` と公的記録の矛盾を、結論を急がず検証している。詳細は [CURRENT_STATE.md](docs/series/CURRENT_STATE.md) を参照する。
 
 ## ディレクトリ構成
 
@@ -77,7 +78,8 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 │  ├─ episodes/              # 執筆・管理用の正史本文
 │  │  ├─ episode-01.md
 │  │  ├─ episode-02.md
-│  │  └─ episode-03.md
+│  │  ├─ episode-03.md
+│  │  └─ episode-04.md
 │  └─ images/
 │     └─ key-visual.png      # 元キービジュアル
 ├─ docs/
@@ -111,6 +113,7 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 - `/episodes/01/`：episode-01読書ページ。
 - `/episodes/02/`：episode-02読書ページ。
 - `/episodes/03/`：episode-03読書ページ。
+- `/episodes/04/`：episode-04読書ページ。
 
 本文ページは `site/contents/episodes/episode-XX.md` をブラウザから読み込み、MarkdownをHTMLへ変換して全文表示する。
 
