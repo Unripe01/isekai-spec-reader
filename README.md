@@ -67,8 +67,9 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 | episode-03 | 第三章「道が一本多い」 | [episode-03.md](contents/episodes/episode-03.md) |
 | episode-04 | 第四章「同じ名前を二度書く」 | [episode-04.md](contents/episodes/episode-04.md) |
 | episode-05 | 第五章「昨日は一つだった」 | [episode-05.md](contents/episodes/episode-05.md) |
+| episode-06 | 第六章「どちらの昨日か」 | [episode-06.md](contents/episodes/episode-06.md) |
 
-現在地はepisode-05終了時点。リーベルで二人のセドを継続観測する中、本人が残ったまま一部の記録と記憶だけが欠ける現象を確認した。詳細は [CURRENT_STATE.md](docs/series/CURRENT_STATE.md) を参照する。
+現在地はepisode-06終了時点。リーベルで二人のセドを継続観測する中、出来事が残ったまま、誰の行為として記憶されるかだけが食い違う現象を確認した。詳細は [CURRENT_STATE.md](docs/series/CURRENT_STATE.md) を参照する。
 
 ## ディレクトリ構成
 
@@ -81,7 +82,8 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 │  │  ├─ episode-02.md
 │  │  ├─ episode-03.md
 │  │  ├─ episode-04.md
-│  │  └─ episode-05.md
+│  │  ├─ episode-05.md
+│  │  └─ episode-06.md
 │  └─ images/
 │     └─ key-visual.png      # 元キービジュアル
 ├─ docs/
@@ -117,6 +119,7 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 - `/episodes/03/`：episode-03読書ページ。
 - `/episodes/04/`：episode-04読書ページ。
 - `/episodes/05/`：episode-05読書ページ。
+- `/episodes/06/`：episode-06読書ページ。
 
 本文ページは `site/contents/episodes/episode-XX.md` をブラウザから読み込み、MarkdownをHTMLへ変換して全文表示する。
 
