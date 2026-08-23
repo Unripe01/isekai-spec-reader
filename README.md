@@ -116,6 +116,7 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 - `/episodes/02/`：episode-02読書ページ。
 - `/episodes/03/`：episode-03読書ページ。
 - `/episodes/04/`：episode-04読書ページ。
+- `/episodes/05/`：episode-05読書ページ。
 
 本文ページは `site/contents/episodes/episode-XX.md` をブラウザから読み込み、MarkdownをHTMLへ変換して全文表示する。
 
