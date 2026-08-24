@@ -69,8 +69,9 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 | episode-05 | 第五章「昨日は一つだった」 | [episode-05.md](contents/episodes/episode-05.md) |
 | episode-06 | 第六章「どちらの昨日か」 | [episode-06.md](contents/episodes/episode-06.md) |
 | episode-07 | 第七章「俺の昨日を返せ」 | [episode-07.md](contents/episodes/episode-07.md) |
+| episode-08 | 第八章「俺は倒していない」 | [episode-08.md](contents/episodes/episode-08.md) |
 
-現在地はepisode-07終了時点。北街道のセドが十八日の記憶を失い、十五日のセドが同じ内容を新たに申告した。二人の自筆記録は残り、リーベル衛兵隊は異常を王都へ報告するため三部の報告書を用意した。詳細は [CURRENT_STATE.md](docs/series/CURRENT_STATE.md) を参照する。
+現在地はepisode-08終了時点。ユウとリゼはリーベルを出て王都方面へ進み、街道での黒牙狼討伐を記録した。翌朝、宿場詰所の公的帳面だけが討伐者を若い衛兵からユウへ書き換えており、記憶と欠けた剣先は衛兵の行為を支持していた。詳細は [CURRENT_STATE.md](docs/series/CURRENT_STATE.md) を参照する。
 
 ## ディレクトリ構成
 
@@ -85,7 +86,8 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 │  │  ├─ episode-04.md
 │  │  ├─ episode-05.md
 │  │  ├─ episode-06.md
-│  │  └─ episode-07.md
+│  │  ├─ episode-07.md
+│  │  └─ episode-08.md
 │  └─ images/
 │     └─ key-visual.png      # 元キービジュアル
 ├─ docs/
@@ -122,6 +124,8 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 - `/episodes/04/`：episode-04読書ページ。
 - `/episodes/05/`：episode-05読書ページ。
 - `/episodes/06/`：episode-06読書ページ。
+- `/episodes/07/`：episode-07読書ページ。
+- `/episodes/08/`：episode-08読書ページ。
 
 本文ページは `site/contents/episodes/episode-XX.md` をブラウザから読み込み、MarkdownをHTMLへ変換して全文表示する。
 
