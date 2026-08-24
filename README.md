@@ -70,8 +70,9 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 | episode-06 | 第六章「どちらの昨日か」 | [episode-06.md](contents/episodes/episode-06.md) |
 | episode-07 | 第七章「俺の昨日を返せ」 | [episode-07.md](contents/episodes/episode-07.md) |
 | episode-08 | 第八章「俺は倒していない」 | [episode-08.md](contents/episodes/episode-08.md) |
+| episode-09 | 第九章「二枚とも本物」 | [episode-09.md](contents/episodes/episode-09.md) |
 
-現在地はepisode-08終了時点。ユウとリゼはリーベルを出て王都方面へ進み、街道での黒牙狼討伐を記録した。翌朝、宿場詰所の公的帳面だけが討伐者を若い衛兵からユウへ書き換えており、記憶と欠けた剣先は衛兵の行為を支持していた。詳細は [CURRENT_STATE.md](docs/series/CURRENT_STATE.md) を参照する。
+現在地はepisode-09終了時点。リーベルの同一報告書二部は、作成時には同内容だったにもかかわらず、王都へ送る一部だけが石鹸購入者を別のセドへ対応づけていた。ユウとリゼは正解を選ばず、差異を比較記録として残し、王都の衛兵隊とルミナ神殿へ向かう。詳細は [CURRENT_STATE.md](docs/series/CURRENT_STATE.md) を参照する。
 
 ## ディレクトリ構成
 
@@ -87,7 +88,8 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 │  │  ├─ episode-05.md
 │  │  ├─ episode-06.md
 │  │  ├─ episode-07.md
-│  │  └─ episode-08.md
+│  │  ├─ episode-08.md
+│  │  └─ episode-09.md
 │  └─ images/
 │     └─ key-visual.png      # 元キービジュアル
 ├─ docs/
@@ -126,6 +128,7 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 - `/episodes/06/`：episode-06読書ページ。
 - `/episodes/07/`：episode-07読書ページ。
 - `/episodes/08/`：episode-08読書ページ。
+- `/episodes/09/`：episode-09読書ページ。
 
 本文ページは `site/contents/episodes/episode-XX.md` をブラウザから読み込み、MarkdownをHTMLへ変換して全文表示する。
 
