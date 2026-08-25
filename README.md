@@ -71,8 +71,9 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 | episode-07 | 第七章「俺の昨日を返せ」 | [episode-07.md](contents/episodes/episode-07.md) |
 | episode-08 | 第八章「俺は倒していない」 | [episode-08.md](contents/episodes/episode-08.md) |
 | episode-09 | 第九章「二枚とも本物」 | [episode-09.md](contents/episodes/episode-09.md) |
+| episode-10 | 第十章「正しい方を出してください」 | [episode-10.md](contents/episodes/episode-10.md) |
 
-現在地はepisode-09終了時点。リーベルの同一報告書二部は、作成時には同内容だったにもかかわらず、王都へ送る一部だけが石鹸購入者を別のセドへ対応づけていた。ユウとリゼは正解を選ばず、差異を比較記録として残し、王都の衛兵隊とルミナ神殿へ向かう。詳細は [CURRENT_STATE.md](docs/series/CURRENT_STATE.md) を参照する。
+現在地はepisode-10終了時点。王都衛兵隊は、内容の異なるリーベル報告書二部について正しい方を決めず、相違状態のまま保管した。ユウとリゼは、記録が社会では人を扱う判断にも使われると知り、次にルミナ神殿の石段を上る。詳細は [CURRENT_STATE.md](docs/series/CURRENT_STATE.md) を参照する。
 
 ## ディレクトリ構成
 
@@ -89,7 +90,8 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 │  │  ├─ episode-06.md
 │  │  ├─ episode-07.md
 │  │  ├─ episode-08.md
-│  │  └─ episode-09.md
+│  │  ├─ episode-09.md
+│  │  └─ episode-10.md
 │  └─ images/
 │     └─ key-visual.png      # 元キービジュアル
 ├─ docs/
@@ -129,6 +131,7 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 - `/episodes/07/`：episode-07読書ページ。
 - `/episodes/08/`：episode-08読書ページ。
 - `/episodes/09/`：episode-09読書ページ。
+- `/episodes/10/`：episode-10読書ページ。
 
 本文ページは `site/contents/episodes/episode-XX.md` をブラウザから読み込み、MarkdownをHTMLへ変換して全文表示する。
 
