@@ -44,6 +44,7 @@ AIの即興で面白い展開が生まれることは歓迎する。ただし採
 | [OPEN_THREADS.md](docs/series/OPEN_THREADS.md) | 未回収伏線、SSR、関連伏線、回収状態 |
 | [EPISODE_SUMMARIES.md](docs/series/EPISODE_SUMMARIES.md) | 各話の出来事・確定事項・意味更新・持ち越しの圧縮サマリ |
 | [WRITING_HARNESS.md](docs/series/WRITING_HARNESS.md) | 新話執筆時の読み込み順、チェック、SSR採用、執筆後更新手順 |
+| [NEXT_EPISODE_BRIEF.md](docs/series/NEXT_EPISODE_BRIEF.md) | 直近の読後感・ユーザーフィードバック・次話の執筆意図を残す引き継ぎメモ（正史ではない） |
 
 ### 新話を書く前の読み込み順
 
@@ -54,7 +55,8 @@ AIの即興で面白い展開が生まれることは歓迎する。ただし採
 5. `OPEN_THREADS.md`
 6. `CANON_LEDGER.md`
 7. `EPISODE_SUMMARIES.md`
-8. 直前二話の本文全文
+8. `NEXT_EPISODE_BRIEF.md`（存在する場合）
+9. 直前二話の本文全文
 
 episode-01から全話を毎回全文読み直さない。古い場面を直接回収するときだけ、該当episodeを追加で読む。
 
@@ -74,8 +76,10 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 | episode-10 | 第十章「正しい方を出してください」 | [episode-10.md](contents/episodes/episode-10.md) |
 | episode-11 | 第十一章「一頁、足りない」 | [episode-11.md](contents/episodes/episode-11.md) |
 | episode-12 | 第十二章「本文ではありません」 | [episode-12.md](contents/episodes/episode-12.md) |
+| episode-13 | 第十三章「一人分しかありません」 | [episode-13.md](contents/episodes/episode-13.md) |
+| episode-14 | 第十四章「二通とも送ってください」 | [episode-14.md](contents/episodes/episode-14.md) |
 
-現在地はepisode-12終了時点。古い創世記は記録上の四十八頁から痕跡なく四十七頁になっていた。後世の写本には、本文へ採られなかった別の一葉が古い異伝として記録され、その要旨はハルカ村で一時的に読めた断片と似ていた。ただし同一のものとは確定しておらず、神殿は関係を保留した関連資料として写しを保存した。詳細は [CURRENT_STATE.md](docs/series/CURRENT_STATE.md) を参照する。
+現在地はepisode-14終了時点。二人のセドは王都で二枚の保護票による保護を受け、それぞれが故郷の母親へ手紙を書いた。北街道のセドは手紙を書いた後、出発以前の父親の記憶の一部を失うが、十五日のセドは朝の相手が書いた言葉まで消さず、二通とも送ることを選ぶ。二人の記憶差と手紙・控えの残存条件、章末の `Entity deletion detected` の意味は未確定である。詳細は [CURRENT_STATE.md](docs/series/CURRENT_STATE.md) を参照する。
 
 ## ディレクトリ構成
 
@@ -95,7 +99,9 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 │  │  ├─ episode-09.md
 │  │  ├─ episode-10.md
 │  │  ├─ episode-11.md
-│  │  └─ episode-12.md
+│  │  ├─ episode-12.md
+│  │  ├─ episode-13.md
+│  │  └─ episode-14.md
 │  └─ images/
 │     └─ key-visual.png      # 元キービジュアル
 ├─ docs/
@@ -138,6 +144,8 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 - `/episodes/10/`：episode-10読書ページ。
 - `/episodes/11/`：episode-11読書ページ。
 - `/episodes/12/`：episode-12読書ページ。
+- `/episodes/13/`：episode-13読書ページ。
+- `/episodes/14/`：episode-14読書ページ。
 
 本文ページは `site/contents/episodes/episode-XX.md` をブラウザから読み込み、MarkdownをHTMLへ変換して全文表示する。
 
