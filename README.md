@@ -100,8 +100,9 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 | episode-18 | 第十八章「狼は逃げていた」 | [episode-18.md](contents/episodes/episode-18.md) |
 | episode-19 | 第十九章「煙は上がっている」 | [episode-19.md](contents/episodes/episode-19.md) |
 | episode-20 | 第二十章「二人は、まだ下にいる」 | [episode-20.md](contents/episodes/episode-20.md) |
+| episode-21 | 第二十一章「魔王軍は北を見ていた」 | [episode-21.md](contents/episodes/episode-21.md) |
 
-現在地はepisode-20終了時点。救援隊は消えた見張り台の現地を確認し、土中に残った地下室からハンナとユルドを救出した。屋上にいたダリオとロアは未発見。ハンナは、塔が消える直前に北の稜線で魔王軍旗三本を見たと証言するが、塔の消失との因果や魔王本人の所在は未確認である。ガレスたちは兵と治療役を増やして再捜索するため、いったん最寄りの見張り台へ戻る。詳細は [CURRENT_STATE.md](docs/series/CURRENT_STATE.md) を参照する。
+現在地はepisode-21終了時点。北の稜線には三本の魔王軍旗と北向きの陣があり、中央の旗をロアの矢が北側から貫いていた。射手や移動経路、陣を築いた者は未確認だが、ダリオとロアの捜索先は消えた塔の跡から旗の向こう側へ広がった。斥候隊は矢の向きを保った中央の旗を持ち帰り、発見した二人を運べる人数で北を捜索する。詳細は [CURRENT_STATE.md](docs/series/CURRENT_STATE.md) を参照する。
 
 ## ディレクトリ構成
 
@@ -129,7 +130,8 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 │  │  ├─ episode-17.md
 │  │  ├─ episode-18.md
 │  │  ├─ episode-19.md
-│  │  └─ episode-20.md
+│  │  ├─ episode-20.md
+│  │  └─ episode-21.md
 │  └─ images/
 │     └─ key-visual.png      # 元キービジュアル
 ├─ docs/
@@ -180,6 +182,7 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 - `/episodes/18/`：episode-18読書ページ。
 - `/episodes/19/`：episode-19読書ページ。
 - `/episodes/20/`：episode-20読書ページ。
+- `/episodes/21/`：episode-21読書ページ。
 
 本文ページは `site/contents/episodes/episode-XX.md` をブラウザから読み込み、MarkdownをHTMLへ変換して全文表示する。
 
