@@ -98,8 +98,9 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 | episode-16 | 第十六章「一人で二か所にいた」 | [episode-16.md](contents/episodes/episode-16.md) |
 | episode-17 | 第十七章「全員、避難済み」 | [episode-17.md](contents/episodes/episode-17.md) |
 | episode-18 | 第十八章「狼は逃げていた」 | [episode-18.md](contents/episodes/episode-18.md) |
+| episode-19 | 第十九章「煙は上がっている」 | [episode-19.md](contents/episodes/episode-19.md) |
 
-現在地はepisode-18終了時点。北街道救援隊は、荷車の下敷きになった薬草商エダを救い、黒牙狼の群れが人を襲わず西の水路へ逃げるのを見た。群れは王都を襲いに来たのではなく、何かから逃げてきた可能性がある。救援隊は朝の煙が見えない北の見張り台へ向かい、二人のセドは王都で保護・観測を続ける。詳細は [CURRENT_STATE.md](docs/series/CURRENT_STATE.md) を参照する。
+現在地はepisode-19終了時点。北街道救援隊は、合図の火が燃えているのに煙が途中で消える見張り台で、負傷した巡回兵オルンを救出した。さらに北の見張り台は跡形もなく消え、詰めていた四人の所在も分からないと証言されている。ガレスたちは救援のため北進を続ける意思を固め、二人のセドは王都で保護・観測を続ける。詳細は [CURRENT_STATE.md](docs/series/CURRENT_STATE.md) を参照する。
 
 ## ディレクトリ構成
 
@@ -125,7 +126,8 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 │  │  ├─ episode-15.md
 │  │  ├─ episode-16.md
 │  │  ├─ episode-17.md
-│  │  └─ episode-18.md
+│  │  ├─ episode-18.md
+│  │  └─ episode-19.md
 │  └─ images/
 │     └─ key-visual.png      # 元キービジュアル
 ├─ docs/
@@ -174,6 +176,7 @@ episode-01から全話を毎回全文読み直さない。古い場面を直接�
 - `/episodes/16/`：episode-16読書ページ。
 - `/episodes/17/`：episode-17読書ページ。
 - `/episodes/18/`：episode-18読書ページ。
+- `/episodes/19/`：episode-19読書ページ。
 
 本文ページは `site/contents/episodes/episode-XX.md` をブラウザから読み込み、MarkdownをHTMLへ変換して全文表示する。
 
